@@ -11,14 +11,11 @@ namespace Lab0
         static void Main(string[] args)
         {
             Random random = new Random();
-            int FirstValue = random.Next(1000);
-            int SecondValue = random.Next(1000);
+            int FirstValue = random.Next(100 - 50);
+            int SecondValue = random.Next(100 - 50);
             int result;
             result = FirstValue * SecondValue;
             Console.WriteLine($"\n Ваше первое число:{FirstValue} \nВаше второе число:{SecondValue} \nРезультат вычислений: {result}");
-
-
-            
 
 
 
