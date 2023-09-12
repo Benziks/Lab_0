@@ -17,7 +17,7 @@ namespace Lab0
             {
                 try
                 {
-                    Console.Write("Введите первое число для умножения ");
+                    Console.Write("Введите первое число для  умножения ");
                     FirstValue = Convert.ToInt32(Console.ReadLine());
 
                     Console.Write("Введите второе число для умножения ");
