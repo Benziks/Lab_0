@@ -9,6 +9,12 @@ namespace Lab0
     
     internal class Program
     {
+        /// <summary>
+        /// Реализовать функцию вычисления произведения двух целых чисел
+        /// </summary>
+        /// <param name="FirstValue">Первое целое число</param>
+        /// <param name="SecondValues">Второе целое число</param>
+        /// <returns>произведение двух целых чисел</returns>
         static int Multiplication(int FirstValue, int SecondValues)
         {
             return FirstValue * SecondValues;
