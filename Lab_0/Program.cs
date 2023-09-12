@@ -10,32 +10,27 @@ namespace Lab0
     {
         static void Main(string[] args)
         {
-            int FirstValue = 0;
-            int SecondValue = 0;
+            Random random = new Random();
+            int FirstValue = random.Next(1000);
+            int SecondValue = random.Next(1000);
             int result;
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Введите первое число для умножения ");
-                    FirstValue = Convert.ToInt32(Console.ReadLine());
+            result = FirstValue * SecondValue;
+            Console.WriteLine($"\n Ваше первое число:{FirstValue} \nВаше второе число:{SecondValue} \nРезультат вычислений: {result}");
 
-                    Console.Write("Введите второе число для умножения ");
-                    SecondValue = Convert.ToInt32(Console.ReadLine());
-                    result = FirstValue * SecondValue;
-                    Console.WriteLine(result);
-                    break;
 
-                }
-                catch (FormatException)
-                {
-                    Console.WriteLine("Введено некоректное значение, пожалуйста повторите попытку");
+            
 
-                }
-            }
+
+
 
             Console.ReadLine();
 
         }
-    }
+        
+       }
+
+
+
 }
+
+
