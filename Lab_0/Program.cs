@@ -16,8 +16,8 @@ namespace Lab0
         static void Main(string[] args)
         {
             Random random = new Random();
-            int FirstValue = random.Next(100 - 50);
-            int SecondValue = random.Next(100 - 50);
+            int FirstValue = random.Next(100) - 50;
+            int SecondValue = random.Next(100)  - 50;
             Console.WriteLine($"Ваше первое число:{FirstValue} \nВаше второе число:{SecondValue} \nРезультат вычислений: {Multiplication(FirstValue,SecondValue)}");
 
 
